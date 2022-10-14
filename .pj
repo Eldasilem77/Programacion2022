@@ -1,0 +1,13 @@
+# _*_ coding: utf-8 _*__
+
+def convierte(letra):
+    asccii= ord(letra)
+    binario= bin(asccii)
+    return binario
+    
+    
+nombrecompleto=["Elda,Silem,Soler,Hernandez"]
+
+for palabra in nombrecompleto:
+    for letra in palabra:
+        print(convierte(letra))
